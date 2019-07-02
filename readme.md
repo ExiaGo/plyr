@@ -27,7 +27,7 @@
 
 ```
 
-#以下是原文
+# 以下是原文
 
 Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports [_modern_](#browser-support) browsers.
 
