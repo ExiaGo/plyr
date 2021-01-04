@@ -1,3 +1,34 @@
+# 修改说明
+> 我修改地方是 dist/plyr.css
+```CSS
+.plyr button, .plyr__volume, .plyr__time{
+	display: none !important;
+}
+.plyr__progress__container {
+	position: absolute;
+	left: 25px;
+	left: 0;
+	width: 100%;
+}
+.plyr__progress {
+	left: 0;
+}
+.plyr--full-ui input[type=range] {
+	color: #E62A1D !important;
+}
+.plyr--full-ui input[type=range]::-webkit-slider-thumb {
+	height: 8px !important;
+	margin-top: -2px !important;
+	border-radius: 5px !important;
+}
+.plyr--audio .plyr__controls {
+	padding: 2px !important;
+}
+
+```
+
+# 以下是原文
+
 Plyr is a simple, lightweight, accessible and customizable HTML5, YouTube and Vimeo media player that supports [_modern_](#browser-support) browsers.
 
 [Checkout the demo](https://plyr.io) - [Donate](#donate) - [Slack](https://bit.ly/plyr-chat) - [![npm version](https://badge.fury.io/js/plyr.svg)](https://badge.fury.io/js/plyr)
