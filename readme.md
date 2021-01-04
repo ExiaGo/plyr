@@ -1,28 +1,32 @@
 # 修改说明
 > 我修改地方是 dist/plyr.css
 ```CSS
-.plyr button, .plyr__volume, .plyr__time{
+.ted_lesson .plyr button, .ted_lesson .plyr__volume, .ted_lesson .plyr__time{
 	display: none !important;
 }
-.plyr__progress__container {
+.ted_lesson .plyr__progress__container {
 	position: absolute;
 	left: 25px;
 	left: 0;
 	width: 100%;
 }
-.plyr__progress {
+.ted_lesson .plyr__progress {
 	left: 0;
 }
-.plyr--full-ui input[type=range] {
+.ted_lesson .plyr--full-ui input[type=range] {
 	color: #E62A1D !important;
 }
-.plyr--full-ui input[type=range]::-webkit-slider-thumb {
+.ted_lesson .plyr--full-ui input[type=range]::-webkit-slider-thumb {
 	height: 8px !important;
 	margin-top: -2px !important;
 	border-radius: 5px !important;
 }
-.plyr--audio .plyr__controls {
+.ted_lesson .plyr--audio .plyr__controls {
 	padding: 2px !important;
+}
+.videoContainer .plyr__control svg {
+	padding: 5px;
+	border: none;
 }
 
 ```
